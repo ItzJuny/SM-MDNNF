@@ -67,7 +67,7 @@ def FFDM_model(input, opt):
     r2 = Bidirectional(LSTM(opt.GCDM_units2))(r1)
     r_fla = Flatten()(r2)
     merge = keras.layers.concatenate([c_pool, r_fla])
-    merge_fc = Dense(32, activation='relu')(merge)
+    merge_fc = Dense(opt.FFDM_units, activation='relu')(merge)
     output_rcnn = Dense(2, activation="softmax")(merge_fc)
     return output_rcnn
 
