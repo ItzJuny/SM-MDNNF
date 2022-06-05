@@ -64,7 +64,7 @@
 
 # 基于基音延迟的隐写分析方法
 
-- **SM-MDNNF(提出的方法)**: 基于小数基音延迟相关性的自适应多速率语音流隐写分析, 待《计算机学报》录用后更新。
+- **SM-MDNNF(提出的方法)**: 田晖, 吴俊彦，严艳， 王慧东，全韩彧. 基于小数基音延迟相关性的自适应多速率语音流隐写分析. 计算机学报，2022，45（6）:1308-1325.
 - **C-MSDPD**: 	Ren Y Z, Yang J, Wang J, Wang L. AMR steganalysis based on second-order difference of pitch delay. IEEE Transactions on Information Forensics and Security, 2017, 12(6): 1345–1357.
 - **PBP**: Liu X K, Tian H, Liu J, Li X, Lu J. Steganalysis of adaptive multiple-rate  speech  using  parity  of  pitch-delay  value//Proceedings  of  the Security  and  Privacy  in  New  Computing  Environments.  Tianjin, China, 2019, 282–297.
 - **HYBIRD**: Tian H, Huang M, Chang C C, et al. Steganalysis of Adaptive Multi-Rate Speech Using Statistical Characteristics of Pitch Delay[J]. JUCS-Journal of Universal Computer Science, 2019, 25: 1131.
